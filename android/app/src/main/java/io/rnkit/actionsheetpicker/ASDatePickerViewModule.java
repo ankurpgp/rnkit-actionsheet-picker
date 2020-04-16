@@ -3,7 +3,6 @@ package io.rnkit.actionsheetpicker;
 import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.bigkoo.pickerview.TimePickerView;
@@ -86,7 +85,7 @@ public class ASDatePickerViewModule extends ReactContextBaseJavaModule implement
     }
 
     @ReactMethod
-    public void showWithArgs(@Nullable final ReadableMap options, @Nullable final Callback callback) {
+    public void showWithArgs(final ReadableMap options, final Callback callback) {
         this.mCallback = callback;
         UiThreadUtil.runOnUiThread(new Runnable() {
             @Override
