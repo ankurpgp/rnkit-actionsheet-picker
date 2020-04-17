@@ -18,6 +18,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.contrarywind:Android-PickerView:3.2.7'
+    implementation project(':pickerview')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.facebook.react:react-native:+'
 }
