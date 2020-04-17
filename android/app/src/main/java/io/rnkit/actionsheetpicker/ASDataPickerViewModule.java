@@ -6,10 +6,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.bigkoo.pickerview.OptionsPickerView;
-import com.bigkoo.pickerview.lib.WheelView;
-import com.bigkoo.pickerview.listener.OnDismissListener;
-import com.bigkoo.pickerview.model.IPickerViewData;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
@@ -27,6 +23,10 @@ import java.util.ArrayList;
 
 import io.rnkit.actionsheetpicker.bean.PickerViewData;
 import io.rnkit.actionsheetpicker.bean.ProvinceBean;
+import io.rnkit.actionsheetpicker.picker.OptionsPickerView;
+import io.rnkit.actionsheetpicker.picker.lib.WheelView;
+import io.rnkit.actionsheetpicker.picker.listener.OnDismissListener;
+import io.rnkit.actionsheetpicker.picker.model.IPickerViewData;
 import io.rnkit.actionsheetpicker.view.DataPickerView;
 
 /**

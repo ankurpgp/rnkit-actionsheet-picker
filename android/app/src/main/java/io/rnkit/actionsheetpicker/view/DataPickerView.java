@@ -2,8 +2,9 @@ package io.rnkit.actionsheetpicker.view;
 
 import android.view.View;
 
-import com.bigkoo.pickerview.OptionsPickerView;
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler;
+
+import io.rnkit.actionsheetpicker.picker.OptionsPickerView;
 
 /**
  * Created by SimMan on 2016/11/30.

@@ -1,6 +1,6 @@
 package io.rnkit.actionsheetpicker.bean;
 
-import com.bigkoo.pickerview.model.IPickerViewData;
+import io.rnkit.actionsheetpicker.picker.model.IPickerViewData;
 
 /**
  * Created by SimMan on 2016/12/1.

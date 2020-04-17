@@ -5,9 +5,6 @@ import android.app.Application;
 import android.os.Bundle;
 import android.view.View;
 
-import com.bigkoo.pickerview.TimePickerView;
-import com.bigkoo.pickerview.lib.WheelView;
-import com.bigkoo.pickerview.listener.OnDismissListener;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
@@ -25,6 +22,9 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import io.rnkit.actionsheetpicker.picker.TimePickerView;
+import io.rnkit.actionsheetpicker.picker.lib.WheelView;
+import io.rnkit.actionsheetpicker.picker.listener.OnDismissListener;
 import io.rnkit.actionsheetpicker.view.DatePickerView;
 
 /**

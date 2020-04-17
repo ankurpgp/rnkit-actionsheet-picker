@@ -4,11 +4,11 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bigkoo.pickerview.TimePickerView;
-import com.bigkoo.pickerview.lib.WheelView;
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler;
 
 import io.rnkit.actionsheetpicker.R;
+import io.rnkit.actionsheetpicker.picker.TimePickerView;
+import io.rnkit.actionsheetpicker.picker.lib.WheelView;
 
 /**
  * Created by SimMan on 2016/11/30.
